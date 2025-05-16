@@ -1,16 +1,14 @@
 import React from 'react';
 import Navbar from '../Shared/Navbar';
 import { Outlet } from 'react-router';
-import Footer from '../Shared/Footer';
 
-const Layout = () => {
+const Dashboard = () => {
     return (
         <div>
             <Navbar/>
             <Outlet/>
-            <Footer/>
         </div>
     );
 };
 
-export default Layout;
+export default Dashboard;
